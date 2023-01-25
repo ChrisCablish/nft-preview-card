@@ -73,7 +73,16 @@ section.author {
 .stats {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.author {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
 }
 
