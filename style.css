@@ -1,3 +1,67 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(216, 50%, 16%);
+}
+
+main h2 {
+    color: white;
+}
+
+span.time-amount {
+    color: hsl(215, 51%, 70%);
+}
+
+main p {
+    color: hsl(215, 51%, 70%)
+}
+
+span.units {
+    color: hsl(178, 100%, 50%);
+}
+
+span.creator {
+    color: hsl(215, 51%, 70%);
+}
+
+span.name {
+    color: white;
+}
+.hero {
+    width: 50%;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+section.author {
+    border-top: 3px solid hsl(215, 32%, 27%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*ATTRIBUTION*/
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
