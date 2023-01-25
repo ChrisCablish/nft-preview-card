@@ -12,6 +12,21 @@ body {
 main {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    align-items: center;
+    width: 302px;
+    padding: 20px;
+}
+
+.primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    align-items: center;
 }
 
 main h2 {
@@ -38,18 +53,29 @@ span.name {
     color: white;
 }
 .hero {
-    width: 50%;
+    width: 302px;
     height: auto;
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 section.author {
     border-top: 3px solid hsl(215, 32%, 27%);
 }
 
+.author-icon {
+    width: 35px;
+    height: auto;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
 
 
 
