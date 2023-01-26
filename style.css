@@ -30,47 +30,48 @@ main {
     align-items: center;
 }
 
-main h2 {
-    color: white;
-}
+/*HERO/INFO SECTION*/
 
-span.time-amount {
-    color: hsl(215, 51%, 70%);
-}
-
-main p {
-    color: hsl(215, 51%, 70%)
-}
-
-span.units {
-    color: hsl(178, 100%, 50%);
-}
-
-span.creator {
-    color: hsl(215, 51%, 70%);
-}
-
-span.name {
-    color: white;
-}
 .hero {
     width: 302px;
     height: auto;
     border-radius: 10px;
 }
 
-p {
+.img-container {
+    width: 302px;
+    height: 302px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.eyeball {
+    position: absolute;
+    z-index: 1;
+    padding: 130px;
+    opacity: 0;
+    background-color: rgba(0, 255, 247,0.5);
+    border-radius: 10px;
+}
+
+.eyeball:hover {
+    display: flex;
+    opacity: 1;
+}
+    
+main h2 {
+    color: white;
+}
+
+main p {
+    color: hsl(215, 51%, 70%);
     font-size: 1.125em;
 }
 
-section.author {
-    border-top: 3px solid hsl(215, 32%, 27%);
-}
-
-.author-icon {
-    width: 35px;
-    height: auto;
-}
+/*STATS SECTION*/
 
 .stats {
     display: flex;
@@ -80,13 +81,38 @@ section.author {
     margin-bottom: 15px;
 }
 
+span.units {
+    color: hsl(178, 100%, 50%);
+}
+
+span.time-amount {
+    color: hsl(215, 51%, 70%);
+}
+
+/*AUTHOR SECTION*/
+
 .author {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
+    gap: 12px;
+    border-top: 2px solid hsl(215, 32%, 27%);
+}
+
+span.creator {
+    color: hsl(215, 51%, 70%);
+}
+
+span.name {
+    color: white;
+}
+
+.author-icon {
+    width: 35px;
+    height: auto;
 }
 
 
@@ -98,11 +124,6 @@ section.author {
 
 
 
-/*ATTRIBUTION*/
 
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
+
+
