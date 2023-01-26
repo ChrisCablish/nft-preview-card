@@ -46,6 +46,7 @@ main {
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
 
 .eyeball {
